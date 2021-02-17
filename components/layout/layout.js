@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-import utilStyles from "./../../styles/utils.module.css";
-import styles from "./layout.module.css";
+import utilStyles from "./../../styles/utils.module.scss";
+import styles from "./layout.module.scss";
 
 const name = "Oleg Kireev";
 export const siteTitle = "Next.js sample website";

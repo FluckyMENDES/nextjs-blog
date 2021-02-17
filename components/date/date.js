@@ -1,5 +1,5 @@
 import { formatRelative, parseISO, format } from "date-fns";
-import utilStyles from "../../styles/utils.module.css";
+import utilStyles from "../../styles/utils.module.scss";
 
 export default function Date({ dateString }) {
     const date = parseISO(dateString);
